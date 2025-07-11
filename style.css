@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  display: flex;
+  font-family: sans-serif;
+}
+
+#controls {
+  width: 200px;
+  background: #f0f0f0;
+  padding: 10px;
+}
+
+#canvas-container {
+  flex: 1;
+  overflow: hidden;
+  background: #fff;
+}
+
+svg {
+  width: 100%;
+  height: 100vh;
+  display: block;
+}
+
+#data-list {
+  width: 220px;
+  background: #fafafa;
+  padding: 10px;
+  overflow-y: auto;
+  border-left: 1px solid #ddd;
+}
+
+.cell {
+  stroke: #999;
+  cursor: pointer;
+}
+.row-label, .col-label {
+  font-size: 10px;
+  fill: #333;
+}
+
+.freq-bar {
+  stroke: none;
+  opacity: 0.8;
+}
